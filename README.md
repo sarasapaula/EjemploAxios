@@ -27,7 +27,18 @@ This project includes an example of Fetch API
    ```jsx
    expo start
    ```
+### API Setup
 
+- Create an API Key in the site: https://www.themoviedb.org/documentation/api
+- Fill apiKEY variable in  `./src/controller/controller.js`
+
+```jsx
+// Better put your these secret keys in .env file
+export const getMovies_axios = async (sendData) => {
+    try {
+    const url ="https://api.themoviedb.org/3/discover/movie?api_key=";
+    const discover= "&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1";
+    const apiKEY=""; //Your api Key
 
 
 # Argon Template
