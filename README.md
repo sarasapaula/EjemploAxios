@@ -4,7 +4,7 @@ This project includes an example of Fetch API
 
 # Preview
 
-![./assets/demo.jpg](./assets/demo.jpg)
+![./assets/imgs/demo.jpg](./assets/demo.jpg)
 
 # Installation
 
