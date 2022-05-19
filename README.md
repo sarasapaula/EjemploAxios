@@ -39,7 +39,7 @@ export const getMovies_axios = async (sendData) => {
     const url ="https://api.themoviedb.org/3/discover/movie?api_key=";
     const discover= "&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1";
     const apiKEY=""; //Your api Key
-
+```
 
 # Argon Template
 
